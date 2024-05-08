@@ -2,7 +2,7 @@
 
 Resources for setting up computing environment.
 
-## Windows:
+## Windows
 
 ```powershell
 powershell -File .\windows_setup.ps1
@@ -24,36 +24,44 @@ bash ./linux_setup.sh
 
 ### Windows Package Manager
 
-https://learn.microsoft.com/en-us/windows/package-manager/winget/
+<https://learn.microsoft.com/en-us/windows/package-manager/winget/>
+
+### GitHub CLI
+
+<https://cli.github.com/manual/>
 
 ### Scoop
 
-https://scoop.sh/
+<https://scoop.sh/>
 
 ### Pixi
 
-https://pixi.sh/latest/
+<https://pixi.sh/latest/>
 
 ### Microsoft PowerToys
 
-https://github.com/microsoft/PowerToys
+<https://github.com/microsoft/PowerToys>
+
+### VS Code
+
+<https://code.visualstudio.com/docs>
 
 ### Nushell
 
-https://www.nushell.sh/book/configuration.html
+<https://www.nushell.sh/book/configuration.html>
 
 ### Starship
 
-https://starship.rs/guide/
+<https://starship.rs/guide/>
 
 ### Just
 
-https://just.systems/man/en/chapter_1.html
+<https://just.systems/man/en/chapter_1.html>
 
 ### Deno
 
-https://docs.deno.com/runtime/manual
+<https://docs.deno.com/runtime/manual>
 
 ### OpenTofu
 
-https://opentofu.org/docs/
+<https://opentofu.org/docs/>

@@ -5,6 +5,7 @@ docs: https://learn.microsoft.com/en-us/windows/package-manager/winget/
 #>
 
 winget install --id Git.Git -e
+winget install --id GitHub.cli -e
 winget install --id Casey.Just -e
 winget install --id Microsoft.WindowsTerminal -e
 winget install --id Microsoft.PowerToys -e
