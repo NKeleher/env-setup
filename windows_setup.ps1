@@ -24,6 +24,7 @@ winget install --id prefix-dev.pixi -e
 winget install --id DuckDB.cli -e
 winget install --id OpenJS.NodeJS -e
 winget install --id DenoLand.Deno -e
+winget install --id OpenTofu.Tofu -e
 winget install --id RProject.R -e
 winget install --id Posit.Quarto -e
 winget install --id Brave.Brave -e
