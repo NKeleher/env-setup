@@ -3,4 +3,8 @@
 
 brew install just nu starship python@3.11 pixi duckdb r deno opentofu
 
-nu nu_setup.nu
+mkdir ~/.config
+starship preset jetpack -o ~/.config/starship.toml
+
+# install global python CLI programs
+pixi global install ruff uv sqlfluff radian

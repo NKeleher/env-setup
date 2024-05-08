@@ -1,12 +1,4 @@
 <#
-Install WSL (Ubuntu)
-https://learn.microsoft.com/en-us/linux/install#install-linux-with-windows-subsystem-for-linux
-- PowerShell (Run as administrator):
-#>
-wsl --install
-
-
-<#
 Install software with Windows Package Manager (winget)
 Requires Windows 10 or later.
 docs: https://learn.microsoft.com/en-us/windows/package-manager/winget/
@@ -31,11 +23,15 @@ winget install --id Brave.Brave -e
 winget install --id Appest.TickTick -e
 
 <#
-Install scoop for additional software
+Install scoop for additional software and fonts
 irm get.scoop.sh -outfile 'scoop_install.ps1'
+
+docs: https://scoop.sh/#/apps
 #>
 powershell -File scoop_install.ps1
 scoop update --all
-
 scoop bucket add nerd-fonts
 scoop install nerd-fonts/SourceCodePro-NF nerd-fonts/SourceCodePro-NF-Mono nerd-fonts/SourceCodePro-NF-Propo nerd-fonts/FiraCode-NF nerd-fonts/FiraCode-NF-Mono nerd-fonts/FiraCode-NF-Propo nerd-fonts/CascadiaMono-NF nerd-fonts/CascadiaMono-NF-Mono
+
+# Configue Nushell and python programs
+nu .\nu_setup.nu

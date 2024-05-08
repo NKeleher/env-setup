@@ -2,40 +2,58 @@
 
 Resources for setting up computing environment.
 
-Windows:
+## Windows:
 
-## Windows Package Manager
+```powershell
+powershell -File .\windows_setup.ps1
+```
+
+Install and activate Windows Subsystem for Linux (WSL).
+
+```powershell
+powershell -File .\wsl.ps1
+```
+
+## Linux
+
+```bash
+bash ./linux_setup.sh
+```
+
+## References
+
+### Windows Package Manager
 
 https://learn.microsoft.com/en-us/windows/package-manager/winget/
 
-## Scoop
+### Scoop
 
 https://scoop.sh/
 
-## Pixi
+### Pixi
 
 https://pixi.sh/latest/
 
-## Microsoft PowerToys
+### Microsoft PowerToys
 
 https://github.com/microsoft/PowerToys
 
-## Nushell
+### Nushell
 
 https://www.nushell.sh/book/configuration.html
 
-## Starship
+### Starship
 
 https://starship.rs/guide/
 
-## Just
+### Just
 
 https://just.systems/man/en/chapter_1.html
 
-## Deno
+### Deno
 
 https://docs.deno.com/runtime/manual
 
-## OpenTofu
+### OpenTofu
 
 https://opentofu.org/docs/
