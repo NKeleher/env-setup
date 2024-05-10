@@ -21,6 +21,7 @@ winget install --id OpenTofu.Tofu -e
 winget install --id RProject.R -e
 winget install --id Posit.Quarto -e
 winget install --id Brave.Brave -e
+winget install --id TheBrowserCompany.Arc -e
 winget install --id Appest.TickTick -e
 
 <#
